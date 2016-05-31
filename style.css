@@ -1,0 +1,104 @@
+.navbar, footer{
+    background-color: rgb(44, 62, 80);
+    color: white;
+    font-size: 24px;
+}
+li a{
+    color: aliceblue;
+}
+.icon-bar{
+    background-color: aliceblue
+}
+ .navbar-brand{
+    color: aliceblue;
+    font-size: 24px;
+}
+header {
+    background-color: cyan;
+    color: aliceblue;
+}
+#about{
+    background-color: cyan;
+    color: aliceblue;
+    font-size: 20;
+}
+#about button{
+    background-color: cyan;
+}
+section, header, footer{
+    padding: 50px;
+}
+.btn-outline{
+    border-radius: 50%;
+    color: aliceblue;
+    border: solid 1px;
+}
+.terms{
+    background-color: rgb(44, 62, 80);
+    color: aliceblue;
+}
+#mod a{
+    color: aqua;
+}
+
+.caption{
+background: rgba(24, 188, 156, 0.9);
+  position: absolute;
+  width:90%;
+  height: 90%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+.caption:hover {
+  opacity: 1;
+}
+.caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+body {
+  padding-top: 50px;
+}
+
+nav a {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  font-size: 18px;
+}
+
+nav .navbar-toggle {
+  margin: 13px 15px 13px 0;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+
+
+nav.navbar.shrink {
+  min-height: 35px;
+}
+
+nav.shrink a {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-size: 15px;
+}
+
+nav.shrink .navbar-brand {
+  font-size: 25px;
+}
+
+nav.shrink .navbar-toggle {
+  padding: 4px 5px;
+  margin: 8px 15px 8px 0;
+}
